@@ -1,10 +1,9 @@
 # Project Decription
+![](https://i.imgur.com/6VESjL3.png)
 ## Problem Statement
 The primary problem to address is predicting machine failures in the milling process. The challenge is to build a machine learning model that can accurately forecast when a machine will fail based on the given features. This is critical for maintenance scheduling, reducing downtime, improving productivity, and ensuring the quality of the products.
-
-The complexity of the problem is compounded by the fact that the 'machine failure' label does not indicate which of the five independent failure modes caused the failure. The machine learning model must discern patterns in the data that lead to failures without explicit failure mode labels.
 ## Proposed Solution
-The proposed solution involves developing a predictive maintenance machine learning model, specifically a binary classification model, to forecast machine failures based on historical data from a milling machine. Using features such as air and process temperatures, rotational speed, torque, tool wear, and product quality indicators, the model will predict the binary outcome of machine failure. This classification task falls under supervised learning, as it will use labeled training data (where the outcomes are known) to learn the patterns associated with failures. To determine the most influential features, the model's feature importances will be analyzed post-training, which will reveal which variables have the most significant impact on predicting failure. Techniques such as Random Forest or Gradient Boosting, known for providing insights on feature importance, will be used. These insights can then inform maintenance decisions, leading to more effective failure prevention strategies.
+The proposed solution involves developing a predictive maintenance machine learning model, specifically a binary classification model, to forecast machine failures based on historical data from a milling machine. This classification task falls under supervised learning, as it will use labeled training data (where the outcomes are known) to learn the patterns associated with failures. Techniques such as Random Forest or Gradient Boosting, known for providing insights on feature importance, will be used. These insights can then inform maintenance decisions, leading to more effective failure prevention strategies.
 
 # Download Dataset
 - The [dataset](https://www.kaggle.com/datasets/stephanmatzka/predictive-maintenance-dataset-ai4i-2020) can be downloaded using command below
